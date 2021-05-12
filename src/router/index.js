@@ -26,7 +26,7 @@ const routes = [
     // this generates a separate chunk (discography.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Discography.vue')
+      import(/* webpackChunkName: "discography" */ '../views/Discography.vue')
   },
   {
     path: '/events',
@@ -35,7 +35,7 @@ const routes = [
     // this generates a separate chunk (events.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Events.vue')
+      import(/* webpackChunkName: "events" */ '../views/Events.vue')
   },
   {
     path: '/event/:id',
@@ -44,7 +44,7 @@ const routes = [
     // this generates a separate chunk (event.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/EventDetails.vue')
+      import(/* webpackChunkName: "eventDetails" */ '../views/EventDetails.vue')
   }
 ]
 
