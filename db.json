@@ -1,0 +1,44 @@
+{
+  "members" : [
+    {
+      "name": "Mark de Leon",
+      "role": "vocals, guitars",
+      "image-url": "mark-deleon.png"
+    },
+    {
+      "name": "Allan Lagat",
+      "role": "bass",
+      "image-url": "allan-lagat.png"
+    },
+    {
+      "name": "Joey Giagonia",
+      "role": "lead guitars",
+      "image-url": "joey-giagonia.png"
+    },
+    {
+      "name": "Kyle Saliva",
+      "role": "drums",
+      "image-url": "kyle-saliva.png"
+    }
+  ],
+  "discography": [
+    {
+      "title": "Time Space Warp",
+      "release-type": "ALBUM",
+      "release-date": "2013-05-19",
+      "image-url": "tsw-album.png",
+      "spotify-url": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "101",
+      "title": "Time Space Warp Album Launch",
+      "event-location": "Hard Rock Cafe Toronto",
+      "event-date": "2013-05-19",
+      "image-url": "tsw-album-launch.png",
+      "event-content": "",
+      "external-url": ""
+    }
+  ]
+}

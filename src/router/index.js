@@ -1,10 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import NotFound from '../views/NotFound.vue'
+import NetworkIssue from '../views/NetworkIssue.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/404',
+    name: '404',
+    component: NotFound,
+    props: true
+  },
+  {
+    path: '/network-issue',
+    name: 'NetworkIssue',
+    component: NetworkIssue
+  },
   {
     path: '/',
     name: 'Home',
@@ -45,6 +58,10 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "eventDetails" */ '../views/EventDetails.vue')
+  },
+  {
+    path: '*', // will catch all navigation that doesn't match any of the routes above this entry in the array
+    redirect: { name: '404', params: { resource: 'page' } }
   }
 ]
 
