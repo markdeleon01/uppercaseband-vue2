@@ -23,11 +23,32 @@
   ],
   "discography": [
     {
-      "title": "Time Space Warp",
-      "release-type": "ALBUM",
-      "release-date": "2013-05-19",
-      "image-url": "tsw-album.png",
-      "spotify-url": ""
+      "title": "'Time Space Warp'",
+      "releaseType": "ALBUM",
+      "releaseDate": "2013-05-17",
+      "imageUrl": "tsw-album.png",
+      "spotifyUrl": "https://open.spotify.com/album/42XqkGCyqyjzf4kB0kFdvu?si=tn4ChbihRoy9PIfaSjPyYg"
+    },
+    {
+      "title": "'Bukas Makalawa'",
+      "releaseType": "EP",
+      "releaseDate": "2017-01-01",
+      "imageUrl": "bukasMakalawa-ep.png",
+      "spotifyUrl": "https://open.spotify.com/album/4233FXws5N1g4lcllYxram?si=10Ka3-G2SxCWFJ6AjEdhag"
+    },
+    {
+      "title": "'Babalik'",
+      "releaseType": "SINGLE",
+      "releaseDate": "2017-12-02",
+      "imageUrl": "babalik-single.png",
+      "spotifyUrl": "https://open.spotify.com/album/4fvgQ2m4ukSzEzHZATEMDc?si=zNMTPrCuTXS0fTCS_tbZrQ"
+    },
+    {
+      "title": "'Tanging Ikaw'",
+      "releaseType": "SINGLE",
+      "releaseDate": "2019-02-19",
+      "imageUrl": "tangingIkaw-single.png",
+      "spotifyUrl": "https://open.spotify.com/album/4qkXXPQF8aiScuCMRuiqM1?si=iRCaY-2kQ9qZp740G-VodQ"
     }
   ],
   "events": [

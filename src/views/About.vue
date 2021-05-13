@@ -2,7 +2,7 @@
   <div class="about">
     <h1>U P P E R C A S E</h1>
     <hr width="50%" align="center" />
-    <h2>Band Members:</h2>
+    <h2>Band Members</h2>
     <p v-for="member in members.members" :key="member.name">
       <span>{{ member.name }} - {{ member.role }}</span>
     </p>
@@ -14,6 +14,7 @@ import { mapState } from 'vuex'
 import store from '@/store/index.js'
 
 function getMembers(next) {
+  // call module action
   store
     .dispatch('members/fetchMembers')
     .then(() => {
@@ -37,7 +38,7 @@ export default {
     getMembers(next)
   },
   computed: {
-    // map store state and expose to component as data
+    // map store module and expose to component as data
     ...mapState(['members'])
   }
 }
