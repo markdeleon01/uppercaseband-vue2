@@ -3,7 +3,7 @@
     <h1>U P P E R C A S E</h1>
     <hr width="50%" align="center" />
     <h2>Events</h2>
-    <p v-for="event in events.events" :key="event.id">
+    <p class="event-item" v-for="event in events.events" :key="event.id">
       <span
         ><b>{{ event.title }}</b></span
       ><br />
@@ -53,7 +53,7 @@ export default {
 </script>
 
 <style scoped>
-p {
+.event-item {
   padding-top: 40px;
 }
 </style>

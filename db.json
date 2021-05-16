@@ -26,28 +26,35 @@
       "title": "'Time Space Warp'",
       "releaseType": "ALBUM",
       "releaseDate": "2013-05-17",
-      "imageUrl": "tsw-album.png",
+      "imageUrl": "timespacewarp_albumcover.png",
       "spotifyUrl": "https://open.spotify.com/album/42XqkGCyqyjzf4kB0kFdvu?si=tn4ChbihRoy9PIfaSjPyYg"
+    },
+    {
+      "title": "'Ere'",
+      "releaseType": "SINGLE",
+      "releaseDate": "2013-06-03",
+      "imageUrl": "ere_cover.png",
+      "spotifyUrl": "https://open.spotify.com/track/1QIwnzacd5KVjLsf3CZK2Y?si=25c450d9ed8f4623"
     },
     {
       "title": "'Bukas Makalawa'",
       "releaseType": "EP",
       "releaseDate": "2017-01-01",
-      "imageUrl": "bukasMakalawa-ep.png",
+      "imageUrl": "bukas_makalawa.jpg",
       "spotifyUrl": "https://open.spotify.com/album/4233FXws5N1g4lcllYxram?si=10Ka3-G2SxCWFJ6AjEdhag"
     },
     {
       "title": "'Babalik'",
       "releaseType": "SINGLE",
       "releaseDate": "2017-12-02",
-      "imageUrl": "babalik-single.png",
+      "imageUrl": "ub_babalik_cover.jpg",
       "spotifyUrl": "https://open.spotify.com/album/4fvgQ2m4ukSzEzHZATEMDc?si=zNMTPrCuTXS0fTCS_tbZrQ"
     },
     {
       "title": "'Tanging Ikaw'",
       "releaseType": "SINGLE",
       "releaseDate": "2019-02-09",
-      "imageUrl": "tangingIkaw-single.png",
+      "imageUrl": "tanging-ikaw-cover-artwork.png",
       "spotifyUrl": "https://open.spotify.com/album/4qkXXPQF8aiScuCMRuiqM1?si=iRCaY-2kQ9qZp740G-VodQ"
     }
   ],
