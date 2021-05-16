@@ -3,7 +3,12 @@
     <h1>U P P E R C A S E</h1>
     <hr width="50%" align="center" />
     <h2>Discography</h2>
-    <p v-for="release in discography.releases" :key="release.title">
+    <p
+      class="release-item"
+      v-for="release in discography.releases"
+      :key="release.title"
+    >
+      <img class="release-thumbnail" :src="release.imageUrl" /><br />
       <span
         ><b>{{ release.title }}</b></span
       ><br />
@@ -48,3 +53,15 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.release-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.release-thumbnail {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+}
+</style>
