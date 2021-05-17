@@ -42,15 +42,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .band-logo img {
   width: 450px;
   height: 300px;
 }
 .page-content {
   padding-top: 25px;
-  padding-left: 120px;
-  padding-right: 120px;
   padding-bottom: 25px;
 }
 </style>

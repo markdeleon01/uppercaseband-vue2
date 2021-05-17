@@ -3,23 +3,19 @@
     <h1>U P P E R C A S E</h1>
     <hr width="50%" align="center" />
     <h2>Events</h2>
-    <p class="event-item" v-for="event in events.events" :key="event.id">
-      <span
-        ><b>{{ event.title }}</b></span
-      ><br />
-      <span>Event date: {{ event.date }}</span
-      ><br />
-      <span>Event location: {{ event.location }}</span
-      ><br />
-      <span v-html="event.content"></span>
-      <a :href="event.externalUrl" target="_blank">Learn more</a>
-    </p>
+    <EventListing
+      class="event-item"
+      v-for="event in events.events"
+      :key="event.id"
+      :event="event"
+    />
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import store from '@/store/index.js'
+import EventListing from '@/components/EventListing.vue'
 
 function getEvents(next) {
   // call module action
@@ -45,6 +41,9 @@ export default {
   beforeRouteUpdate(routeTo, routeFrom, next) {
     getEvents(next)
   },
+  components: {
+    EventListing
+  },
   computed: {
     // map store module and expose to component as data
     ...mapState(['events'])
@@ -55,5 +54,7 @@ export default {
 <style scoped>
 .event-item {
   padding-top: 40px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 </style>
