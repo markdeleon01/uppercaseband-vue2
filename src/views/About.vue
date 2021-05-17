@@ -14,6 +14,8 @@
       <p>
         Formed in 2009, UPPERCASE is a Filipino-Canadian alternative pop rock
         indie band from Toronto, Canada pursuing Original Pilipino Music (OPM).
+      </p>
+      <p>
         Composed of Mark de Leon (vocals/guitars), Allan Lagat (bass), Joey
         Giagonia (lead guitars), and Kyle Andre (drums).
       </p>
@@ -80,18 +82,16 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .band-pic img {
   padding-top: 20px;
   width: 450px;
   height: 300px;
   padding-bottom: 20px;
 }
-.biography {
-  padding-left: 150px;
-  padding-right: 150px;
-}
 .biography p {
   padding-bottom: 20px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 </style>

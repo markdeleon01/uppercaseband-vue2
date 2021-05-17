@@ -3,25 +3,19 @@
     <h1>U P P E R C A S E</h1>
     <hr width="50%" align="center" />
     <h2>Discography</h2>
-    <p
+    <DiscographyListing
       class="release-item"
       v-for="release in discography.releases"
       :key="release.title"
-    >
-      <img class="release-thumbnail" :src="release.imageUrl" /><br />
-      <span
-        ><b>{{ release.title }}</b></span
-      ><br />
-      <span>Released: {{ release.releaseDate }}</span
-      ><br />
-      <a :href="release.spotifyUrl" target="_blank">Listen on Spotify</a>
-    </p>
+      :release="release"
+    />
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import store from '@/store/index.js'
+import DiscographyListing from '@/components/DiscographyListing.vue'
 
 function getReleases(next) {
   // call module action
@@ -47,6 +41,9 @@ export default {
   beforeRouteUpdate(routeTo, routeFrom, next) {
     getReleases(next)
   },
+  components: {
+    DiscographyListing
+  },
   computed: {
     // map store module and expose to component as data
     ...mapState(['discography'])
@@ -54,14 +51,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.release-item {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.release-thumbnail {
-  width: 300px;
-  height: 300px;
-  padding-bottom: 10px;
-}
-</style>
+<style scoped></style>
