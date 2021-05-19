@@ -94,4 +94,10 @@ export default {
   padding-left: 140px;
   padding-right: 140px;
 }
+@media (min-width: 0px) and (max-width: 565px) {
+  .biography p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 </style>
