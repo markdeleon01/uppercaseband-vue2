@@ -1,5 +1,7 @@
 # uppercaseband-vue2
 
+[![CircleCI](https://circleci.com/gh/markdeleon01/uppercaseband-vue2/tree/master.svg?style=svg)](https://circleci.com/gh/markdeleon01/uppercaseband-vue2/tree/master)
+
 ## Project setup
 ```
 npm install
