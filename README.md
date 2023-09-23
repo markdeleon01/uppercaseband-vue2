@@ -4,6 +4,9 @@
 
 As a matter of interest and passion for JavaScript and music in general, I created a Vue2 web application for my band UPPERCASE.
 
+The live site can be found on: https://uppercaseband.onrender.com/
+
+
 ## Project setup
 1.  Install NodeJS on your local machine
 2.  Clone this project repository
