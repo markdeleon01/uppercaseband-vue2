@@ -66,6 +66,16 @@ describe('Events.vue', () => {
           content:
             "<p>UPPERCASE's latest single '<i>Tanging Ikaw</i>' enjoys heavy streaming on Spotify Philippines.</p>",
           externalUrl: 'https://www.youtube.com/watch?v=KWHDtXBoa2o'
+        },
+        {
+          id: '601',
+          title: "'Ligaw Na Tadhana'",
+          location: 'Toronto, Canada',
+          date: 'Mar 23 2023',
+          imageUrl: 'ligaw-na-tadhana.png',
+          content:
+            "<p>UPPERCASE's latest single '<i>Ligaw Na Tadhana</i>' lyric video:</p>",
+          externalUrl: 'https://youtu.be/Z3nZp2xkFCg?si=t0nPvaDqJWknNHLu'
         }
       ]
     }
@@ -85,7 +95,7 @@ describe('Events.vue', () => {
     const wrapper = mount(Events, { store, localVue })
 
     expect(wrapper.find('.events').exists()).to.equal(true)
-    expect(wrapper.findAll('.event-item')).to.have.lengthOf(5)
-    expect(wrapper.findAll('.event-item > a')).to.have.lengthOf(5)
+    expect(wrapper.findAll('.event-item')).to.have.lengthOf(6)
+    expect(wrapper.findAll('.event-item > a')).to.have.lengthOf(6)
   })
 })
