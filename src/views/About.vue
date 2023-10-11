@@ -85,7 +85,6 @@ export default {
 <style scoped>
 .band-pic img {
   padding-top: 20px;
-  width: 450px;
   height: 300px;
   padding-bottom: 20px;
 }
