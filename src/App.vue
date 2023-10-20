@@ -25,6 +25,10 @@ export default {
   display: grid;
 }
 
+a:hover {
+  color: #535bf2;
+}
+
 #nav {
   padding: 30px;
 }
@@ -34,7 +38,12 @@ export default {
   color: #2c3e50;
 }
 
+#nav a:hover {
+  color: #535bf2;
+}
+
 #nav a.router-link-exact-active {
   color: royalblue;
+  text-decoration: none;
 }
 </style>
