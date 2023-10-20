@@ -53,6 +53,14 @@ describe('Discography.vue', () => {
           imageUrl: 'tanging-ikaw-cover-artwork.png',
           spotifyUrl:
             'https://open.spotify.com/album/4qkXXPQF8aiScuCMRuiqM1?si=iRCaY-2kQ9qZp740G-VodQ'
+        },
+        {
+          title: "'Ligaw Na Tadhana'",
+          releaseType: 'SINGLE',
+          releaseDate: 'Mar 23 2023',
+          imageUrl: 'UPPERCASE-LNT-single.png',
+          spotifyUrl:
+            'https://open.spotify.com/track/0yQ0RzKaaoiy1xepomQcC0?si=4963648232184926'
         }
       ]
     }
@@ -72,8 +80,8 @@ describe('Discography.vue', () => {
     const wrapper = mount(Discography, { store, localVue })
 
     expect(wrapper.find('.discography').exists()).to.equal(true)
-    expect(wrapper.findAll('.release-item')).to.have.lengthOf(5)
-    expect(wrapper.findAll('.release-thumbnail')).to.have.lengthOf(5)
-    expect(wrapper.findAll('.release-item > a')).to.have.lengthOf(5)
+    expect(wrapper.findAll('.release-item')).to.have.lengthOf(6)
+    expect(wrapper.findAll('.release-thumbnail')).to.have.lengthOf(6)
+    expect(wrapper.findAll('.release-item > a')).to.have.lengthOf(6)
   })
 })

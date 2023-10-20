@@ -1,5 +1,5 @@
 {
-  "members" : [
+  "members": [
     {
       "name": "Mark de Leon",
       "role": "vocals, guitars",
@@ -56,6 +56,13 @@
       "releaseDate": "Feb 09 2019",
       "imageUrl": "tanging-ikaw-cover-artwork.png",
       "spotifyUrl": "https://open.spotify.com/album/4qkXXPQF8aiScuCMRuiqM1?si=iRCaY-2kQ9qZp740G-VodQ"
+    },
+    {
+      "title": "'Ligaw Na Tadhana'",
+      "releaseType": "SINGLE",
+      "releaseDate": "Mar 23 2023",
+      "imageUrl": "UPPERCASE-LNT-single.png",
+      "spotifyUrl": "https://open.spotify.com/track/0yQ0RzKaaoiy1xepomQcC0?si=4963648232184926"
     }
   ],
   "events": [
@@ -94,7 +101,7 @@
       "imageUrl": "ub_babalik_cover.jpg",
       "content": "<p>UPPERCASE's Christmas single '<i>Babalik</i>' gets featured on a special promotional video by TAG 91.1 radio station from Dubai, UAE dedicated to Overseas Filipino Workers (OFWs).</p>",
       "externalUrl": "https://fb.watch/2wBYilLHEB/"
-    },    
+    },
     {
       "id": "501",
       "title": "'Tanging Ikaw'",
@@ -103,6 +110,15 @@
       "imageUrl": "tanging-ikaw.png",
       "content": "<p>UPPERCASE's latest single '<i>Tanging Ikaw</i>' enjoys heavy streaming on Spotify Philippines.</p>",
       "externalUrl": "https://www.youtube.com/watch?v=KWHDtXBoa2o"
+    },
+    {
+      "id": "601",
+      "title": "'Ligaw Na Tadhana'",
+      "location": "Toronto, Canada",
+      "date": "Mar 23 2023",
+      "imageUrl": "ligaw-na-tadhana.png",
+      "content": "<p>UPPERCASE's latest single '<i>Ligaw Na Tadhana</i>' lyric video:</p>",
+      "externalUrl": "https://youtu.be/Z3nZp2xkFCg?si=t0nPvaDqJWknNHLu"
     }
   ]
 }
