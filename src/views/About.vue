@@ -1,12 +1,15 @@
 <template>
   <div class="about">
-    <h1>U P P E R C A S E</h1>
-    <hr width="50%" align="center" />
     <h2>Band Members</h2>
-    <p class="member-item" v-for="member in members.members" :key="member.name">
-      <span>{{ member.name }} - {{ member.role }}</span>
-    </p>
-    <hr width="50%" align="center" />
+    <div class="band-members">
+      <p
+        class="member-item"
+        v-for="member in members.members"
+        :key="member.name"
+      >
+        <span>{{ member.name }} - {{ member.role }}</span>
+      </p>
+    </div>
     <p class="band-pic">
       <img src="uppercase2019-bandPic.png" />
     </p>
@@ -83,20 +86,30 @@ export default {
 </script>
 
 <style scoped>
-.band-pic img {
+.band-members p {
+  text-align: center;
+}
+.band-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 20px;
-  height: 300px;
   padding-bottom: 20px;
+}
+.band-pic img {
+  width: -webkit-fill-available;
+  max-width: 350px;
+  max-height: 300px;
 }
 .biography p {
-  padding-bottom: 20px;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
-@media (min-width: 0px) and (max-width: 565px) {
-  .biography p {
-    padding-left: 25px;
-    padding-right: 25px;
+@media (max-width: 280px) {
+  .band-pic img {
+    width: 250px;
+    height: 150px;
   }
 }
 </style>

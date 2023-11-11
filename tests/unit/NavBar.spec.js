@@ -8,6 +8,6 @@ describe('NavBar.vue', () => {
       stubs: ['router-link', 'router-view']
     })
 
-    expect(wrapper.find('#nav').vm.$children).to.have.lengthOf(4)
+    expect(wrapper.find('nav').vm.$children).to.have.lengthOf(4)
   })
 })

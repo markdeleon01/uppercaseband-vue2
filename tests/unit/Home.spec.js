@@ -7,7 +7,9 @@ describe('Home.vue', () => {
     const wrapper = shallowMount(Home)
 
     expect(wrapper.find('.home').exists()).to.equal(true)
+    expect(wrapper.find('.home > h2').exists()).to.equal(true)
     expect(wrapper.find('.home > .band-logo').exists()).to.equal(true)
-    expect(wrapper.find('.home > .page-content').exists()).to.equal(true)
+    expect(wrapper.find('.home > .band-logo img').exists()).to.equal(true)
+    expect(wrapper.find('.home > .home-content').exists()).to.equal(true)
   })
 })
