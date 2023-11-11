@@ -5,7 +5,9 @@
     ><br />
     <span class="release-date">Released: {{ formattedDate }}</span
     ><br />
-    <a :href="release.spotifyUrl" target="_blank">Listen on Spotify</a>
+    <a class="release-url" :href="release.spotifyUrl" target="_blank"
+      >Listen on Spotify</a
+    >
   </p>
 </template>
 

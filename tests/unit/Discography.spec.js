@@ -83,5 +83,7 @@ describe('Discography.vue', () => {
     expect(wrapper.findAll('.release-item')).to.have.lengthOf(6)
     expect(wrapper.findAll('.release-thumbnail')).to.have.lengthOf(6)
     expect(wrapper.findAll('.release-item > a')).to.have.lengthOf(6)
+    expect(wrapper.findAll('.release-date')).to.have.lengthOf(6)
+    expect(wrapper.findAll('.release-url')).to.have.lengthOf(6)
   })
 })
