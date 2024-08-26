@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^1.6.0",
+    "axios": "^1.7.4",
     "chai-dom": "^1.9.0",
     "core-js": "^3.6.5",
     "nprogress": "^0.2.0",
